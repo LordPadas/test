@@ -46,32 +46,19 @@ window.addEventListener('load', function OnWindowLoaded() {
 
 
 
-        if (namestring.value === "") {
+        if (namestring.value === "") 
+        {
             alert("Ошибка: Ведите Название");
         }
-        else if (namestringtwo.value === "") {
+        else if (namestringtwo.value === "") 
+        {
             alert("Ошибка: Ведите Описание")
         }
         else {
             messageindisplay(nazwanie, opisanie);
             namestring.value = "";
             namestringtwo.value = "";
-
-
-
-
-
-
-
-
-
-
-
         }
-
-
-
-
 
 
         const Cont = document.querySelectorAll('.Cont')
@@ -83,15 +70,10 @@ window.addEventListener('load', function OnWindowLoaded() {
         });
         function handleClick() {
             let a = this.querySelector(".butt")
-
             //    if( a.innerHTML === "X"){
-
             this.style.backgroundColor = "snow";
-
             a.innerHTML = "V"
-
             // }
-
             // else{
             //     this.style.backgroundColor = "Lime"
             //     a.innerHTML = "X"

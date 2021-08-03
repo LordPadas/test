@@ -1,97 +1,83 @@
 @media (min-width: 576px) { 
-    /* .screen { min-width: 100%; 
-      min-height: 100%; 
-      position: fixed; 
-      background: rgba(0, 149, 208, 0);
-       display: flex;
-        flex-wrap: nowrap;
-         justify-content: center; 
-         border-style:hidden;
-        
-         width: 300px;
-       font-weight: 700;
-       border-style:hidden;
-       text-decoration: none;
-       padding: .8em 1em calc(.8em + 3px);
-       border-radius: 10px;
-       overflow: hidden; */
       }
       @media (min-width: 380px) { 
   
   
   
-  
-  
-  
-  
-  
-          .screen {background: rgba(0, 149, 208, 0); display: flex;  flex-direction: column; flex-wrap: wrap; justify-content: flex-start; align-items: center; border-style: hidden ; position: relative; }
-          .screen > div {background: rgba(241, 101, 41, 0); border: 1px solid; width: 100%; margin: 0px; padding: 0px; border-style: hidden ; }
-  
-          .Bord{ 
-              height: 600px;
-  
-  
-              
-          }
-          h1{
-            font-size: 70px;
-          }
-          .knptwo {
-            
-            
-              border-style:hidden;
-                
-                width: 500px;
-              font-weight: 700;
-              color: white;
-              text-decoration: none;
-              padding: .8em 1em calc(.8em + 3px);
-              border-radius: 10px;
-              background: rgb(87, 71, 231);
-              box-shadow: 0 -3px rgb(59, 117, 226) inset;
-              transition: 0.2s;
-              height: 100px;
-              font-size: 35px;
-            } 
-            .knptwo:hover { background: rgb(63, 44, 228); }
-            .knptwo:active {
-              background: rgb(34, 82, 212);
-              box-shadow: 0 3px rgb(34, 82, 212) inset;
-            }
-          
-            .Enter {
-              font-size: 35px;
-              border-style:hidden;
-              background:rgb(247, 244, 244);
-              width: 700px;
-            font-weight: 700;
-            resize: none;
-            text-decoration: none;
-            padding: .8em 1em calc(.8em + 3px);
-            border-radius: 10px;
-            height: 100px;
-            font-weight: lighter;
-            font-family: system-ui;
-            }
-            #sobpool {background: rgba(0, 149, 208, 0); display: flex; height: auto; flex-direction: column-reverse; flex-wrap: nowrap; align-content: center; align-items: center; justify-content:space-between; overflow-y: scroll;}
-            #sobpool > div { border: 1px solid; width: 700px; padding: 0px; border-style:hidden ; }
-            #sobpool{
-              width: 1000px;
-              overflow-x: hidden;
-              overflow-y: scroll;
-    /* width: 50%;
-    height:100%;
-    position: hidden; */
-    font-size: 35px;
-    margin-top: 50px; 
+  body{
+    height: 100vh;
+     overflow: auto;
   }
   
+  h1{
+    font-size: 70px;
+  }
   
-  .butt{font-size: 45px;
-    text-align: right;
-    opacity: 50%;
-    font-family: system-ui;
+          .screen {background: rgba(0, 149, 208, 0); display: flex;
+              flex-direction: column;
+               flex-wrap: wrap;
+                justify-content: flex-start;
+                 align-items: center;
+                  border-style: hidden;
+                   position: relative; }
+          
+                  .screen > div {background: rgba(241, 101, 41, 0);
+                     border: 1px solid;
+                         width: 100%;
+                            margin: 0px;
+                              padding: 0px;
+                                 border-style: hidden ;
+                                }
+  
+ .Bord{ height: 600px; }
+       
+          
+ .knptwo {
+   border-style:hidden;
+     width: 500px;
+       height: 100px;
+         font-size: 35px;
+            } 
+ .Enter {
+  font-size: 35px;
+    border-style:hidden;
+      background:rgb(247, 244, 244);
+        width: 700px;
+          font-weight: 700;
+            resize: none;
+              text-decoration: none;
+                padding: .8em 1em calc(.8em + 3px);
+                border-radius: 10px;
+                   height: 100px;
+                     font-weight: lighter;
+                      font-family: system-ui;
+            }
+
+
+
+ #sobpool {background: rgba(0, 149, 208, 0);
+   display: flex;
+    height: auto;
+     flex-direction: column-reverse;
+      flex-wrap: nowrap;
+       align-content: center;
+        align-items: center;
+         overflow-y: scroll;
+           width: 1000px;
+            font-size: 35px;
+              margin-top: 50px; }
+          #sobpool > div { border: 1px solid;
+           width: 700px;
+            padding: 0px;
+               border-style:hidden ; }
+
+  
+  
+  .butt{
+    font-size: 45px;
+      text-align: right;
+      opacity: 50%;
+        font-family: system-ui;
   }
       }
       
