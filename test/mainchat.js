@@ -71,8 +71,10 @@ window.addEventListener('load', function OnWindowLoaded() {
         function handleClick() {
             let a = this.querySelector(".butt")
             //    if( a.innerHTML === "X"){
-            this.style.backgroundColor = "snow";
+            this.style.backgroundColor = "LightGray";
+            this.style.color="rgba(0, 0, 0, 0.644)"
             a.innerHTML = "V"
+            a.style.color="rgba(0, 0, 0, 0.644)"
             // }
             // else{
             //     this.style.backgroundColor = "Lime"
